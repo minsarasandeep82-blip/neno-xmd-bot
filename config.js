@@ -7,7 +7,7 @@ function convertToBool(text, fault = "true") {
 }
 
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || "6TYlmAaJ#MfXgx6hPmavIKcXtDl3aqqFi_SWJxhWB5XMsLfA-jH0",
+  SESSION_ID: process.env.SESSION_ID || "NENO-XMD~mPRChJ4Z#dZovJdPLdyDr0Bi8ZzlMdgHzevLxcP0XKHa1XWyRkDs",
   OWNER_NUM: process.env.OWNER_NUM || "94726228243",
   PREFIX: process.env.PREFIX || ".",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
@@ -25,7 +25,7 @@ module.exports = {
   AUTO_REACT: convertToBool(process.env.AUTO_REACT || "true"),
   AUTO_REACT: process.env.AUTO_REACT === "true" ? true : false,
   CUSTOM_REACT_EMOJIS:
-    process.env.CUSTOM_REACT_EMOJIS || "🥲,😂,😐,🙂,😔",
+    process.env.CUSTOM_REACT_EMOJIS || "🦄,🕷️,🗣️,👽,👀",
 
   // Add this line for your status view control:
 
